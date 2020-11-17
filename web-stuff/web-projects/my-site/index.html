@@ -1,0 +1,105 @@
+<style>
+  header {
+    background-color: hsl(180, 90%, 35%);
+    color: #FFFFFF;
+    padding: 0.25em;
+  }
+  nav {
+    background-color: hsl(180, 70%, 20%);
+  } 
+  @media (max-height: 800px) {
+      p {
+          font-size: 15px;
+      }
+  }
+
+  nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+  }
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  li:hover {
+      animation-name: background-color;
+      animation-duration: 500ms;
+      animation-fill-mode: forwards;
+  }
+  @keyframes background-color {
+      100% {
+          font-family: "Inconsolata";
+      }
+  }
+  html, body {
+    background: #FFFFFF;
+    height: 100vh;
+  }
+  h1 {
+    text-indent: 10px;
+    padding-top: 10px;
+  }
+  h2 {
+    color: #09A7A1;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  button {
+    background-color: #FF790E;
+  }
+  footer {
+    background-color: #09A7A1;
+    color: white;
+    padding: 0.3em;
+  }
+
+</style>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My portifolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Paulo's HomePage!</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Posts</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Github</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2><a href="#">Post 1</a></h2>
+        <p>Join this two day workshop that walks through how to implement cutting-edge snack-getting algorithms with a command line interface. Coding usually involves writing exact instructions, but sometimes you need your computer to execute flexible commands, like <code>fetch Pringles</code>.</p>
+      </article>
+      <article>
+        <section>
+        <h2><a href="#">Post 2</a></h2>
+        <p>This week-long retreat will level-up your coding ninja skills to actual ninja skills. No longer is the humble bisection search limited to sorted arrays or coding interview questions, applying its concepts in the kitchen will have you chopping carrots in O(log n) time before you know it.</p>
+        <!-- <button>Sign Up</button> -->
+        </section>
+      </article>
+      <article>
+        <h2><a href="#">Post 3</a></h2>
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac orci
+          tellus. Quisque feugiat enim ultrices facilisis ultrices. Ut neque risus,
+          vulputate et dui sit amet, molestie tristique odio. Nullam maximus dignissim
+          ullamcorper. Curabitur lacinia at arcu ut congue. Nunc vehicula convallis
+          magna, ac ornare lacus dapibus sit amet. Quisque in odio ut turpis euismod
+          efficitur a sit amet sapien. Fusce interdum neque ac sem elementum, sit amet
+          vehicula tellus dignissim. Aenean tincidunt, augue eget dictum fringilla,
+          sem sapien pharetra augue, sit amet commodo lorem metus eget magna.</p>
+      </article>
+    </main>
+    <br>
+    <footer>&copy; 2020 Paulo Vicente</footer>
+  </body>
+</html>
